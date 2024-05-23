@@ -20,3 +20,16 @@
 
 
 /*! categories end  */
+
+/* !Products start */
+.products{
+    margin-bottom: 40px;
+}
+
+.products .product-list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* !Products end */
