@@ -20,6 +20,8 @@
 
 @import url(components/blogs-item.css);
 
+@import url(components/brands-item.css);
+
 /* !pages */
 
 @import url(pages/home.css);
