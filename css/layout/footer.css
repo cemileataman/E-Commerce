@@ -53,6 +53,8 @@
     align-items: center;
     column-gap: 10px;
 }
+
+/* !Responsive */
 @media (max-width:768px) {
     .footer .footer-row-wrapper{
         flex-direction: column;
