@@ -81,6 +81,7 @@ header {
   align-items: center;
   column-gap: 16px;
 }
+
 .header-right .bi-person {
   font-size: 23px;
 }
