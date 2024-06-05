@@ -95,3 +95,13 @@ function showSlides(n) {
 
 
 //!slider end
+
+//localStorage setItem
+const fruits =["elma","armut","şeftali"];
+localStorage.setItem("fullName",JSON.stringify("Cemile Ataman"));
+localStorage.setItem("meyveler",JSON.stringify(fruits));
+
+//localStorage getItem
+const getData = JSON.parse(localStorage.getItem("fullName"));
+const getData2 = JSON.parse(localStorage.getItem("fullName"));
+console.log(getData2);
