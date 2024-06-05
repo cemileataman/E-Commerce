@@ -30,7 +30,7 @@
 .products .product-list {
   display: flex;
   gap: 20px;
-  flex-wrap: wrap;
+  flex-wrap: wrap; 
 }
 
 /* !Products end */
