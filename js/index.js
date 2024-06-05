@@ -93,15 +93,16 @@ function showSlides(n) {
   dots[slideIndex - 1].className += " active";
 }
 
-
 //!slider end
 
-//localStorage setItem
-const fruits =["elma","armut","şeftali"];
-localStorage.setItem("fullName",JSON.stringify("Cemile Ataman"));
-localStorage.setItem("meyveler",JSON.stringify(fruits));
+//!add product to localStorage
+async function getData() {
+  const photos = await fetch("../js/data.json");
+  const data = await photos.json();
 
-//localStorage getItem
-const getData = JSON.parse(localStorage.getItem("fullName"));
-const getData2 = JSON.parse(localStorage.getItem("fullName"));
-console.log(getData2);
+  data ? localStorage.setItem("products", JSON.stringify(data)) : [];
+}
+getData();
+
+const products = localStorage.getItem("products");
+console.log(JSON.parse(products));
