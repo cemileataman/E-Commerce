@@ -3,8 +3,8 @@
         "id": 1,
         "name": "Analogue Resin Strap",
         "price": {
-            "oldPrice": 165.00,
-            "newPrice": 108.00
+            "oldPrice": 208.00,
+            "newPrice": 165.00
         },
         "discount": 22,
         "img": {
@@ -20,8 +20,8 @@
         "id": 2,
         "name": "Ridley High Waist",
         "price": {
-            "oldPrice": 165.00,
-            "newPrice": 208.00
+            "oldPrice": 208.00,
+            "newPrice": 165.00
         },
         "discount": 33,
         "img": {

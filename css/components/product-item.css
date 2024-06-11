@@ -102,6 +102,7 @@
   transition: all ease 0.3s;
   color: white;
 }
+
 .product-item .product-links button :hover,
 .product-item .product-links a :hover {
   opacity: 0.7;
@@ -110,15 +111,20 @@
   color: #fff;
   font-size: 14px;
   display: flex;
+  pointer-events: none;
+  
 }
 .product-wrapper {
   position: relative;
   
 }
+
 .product-wrapper .glide__arrow {
   position: absolute;
   top: 50%;
   background-color: transparent;
+  border: none;
+  outline: none;
 }
 .product-wrapper .glide__arrow--left {
   left: -40px;
@@ -132,9 +138,9 @@
 
 @media (max-width: 576px) {
   .product-wrapper .glide__arrow--left{
-    left:0 px ;
+    left:0px ;
   }
-  .product-wrapper .glide__arrow--left{
-    right: 0 x;
+  .product-wrapper .glide__arrow--right{
+    right: 0px;
   }
 }

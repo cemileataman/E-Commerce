@@ -38,9 +38,12 @@ p {
   font-weight: 500;
   display: flex;
 }
-button {
-  cursor: pointer;
-  border: none;
+button:disabled{
+  opacity: 0.4 !important;
+  cursor: no-drop;
+}
+button:disabled button:hover{
+ background-color:#1367ef;
 }
 .btn {
   display: inline-block;
