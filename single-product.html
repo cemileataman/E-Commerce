@@ -421,7 +421,7 @@
               </li>
             </ul>
             <div class="tab-panel">
-              <div class="tab-panel-descriptions content active" id="desc">
+              <div class="tab-panel-descriptions content " id="desc">
                 <p>
                   Quisque varius diam vel metus mattis, id aliquam diam rhoncus.
                   Proin vitae magna in dui finibus malesuada et at nulla. Morbi
@@ -466,7 +466,7 @@
                   </tbody>
                 </table>
               </div>
-              <div class="tab-panel-reviews content " id="reviews">
+              <div class="tab-panel-reviews content active " id="reviews">
                 <h3>
                   2 reviews for Basic Colored Sweatpants With Elastic Hems
                 </h3>
@@ -579,7 +579,7 @@
                           <i class="bi bi-star-fill"></i>
                           <i class="bi bi-star-fill"></i>
                         </a>
-                        <a href="#" class="star">
+                        <a href="#" class="star ">
                           <i class="bi bi-star-fill"></i>
                           <i class="bi bi-star-fill"></i>
                           <i class="bi bi-star-fill"></i>
@@ -593,14 +593,14 @@
                         Your review
                         <span class="required">*</span>
                       </label>
-                      <textarea id="comment" cols="50" rows="10"></textarea>
+                      <textarea id="comment-text" cols="50" rows="10" required></textarea>
                     </div>
                     <div class="comment-form-author form-comment">
                       <label for="name">
                         Name
                         <span class="required">*</span>
                       </label>
-                      <input id="name" type="text" />
+                      <input id="comment-name" type="text" required />
                     </div>
                     <div class="comment-form-email form-comment">
                       <label for="email">
@@ -610,7 +610,7 @@
                       <input id="email" type="email" />
                     </div>
                     <div class="comment-form-cookies">
-                      <input id="cookies" type="checkbox" />
+                      <input id="cookies" name="cookies" type="checkbox" />
                       <label for="cookies">
                         Save my name, email, and website in this browser for the
                         next time I comment.
