@@ -1,6 +1,7 @@
 import headerFunc from "./header.js";
 import slider from "./slider.js";
-import productsFunc from "./products.js"
+import productsFunc from "./products.js";
+import searchFunc from "./search.js";
 
 //! add product to localStorage start 
 //! add product to localStorage start
@@ -10,6 +11,7 @@ import productsFunc from "./products.js"
 
   data ? localStorage.setItem("products", JSON.stringify(data)) : [];
   productsFunc();
+  searchFunc(data);
 })();
 
 // getData();
