@@ -45,6 +45,8 @@
     transform: translateY(-50%);
     background-color: transparent;
     font-size: 25px;
+    border: none;
+
  }
  .single-product .glide__arrow--left{
    left: 0;

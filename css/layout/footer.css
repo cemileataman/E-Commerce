@@ -89,6 +89,15 @@
 .footer-widgets .widgets-nav-menu ul {
   margin-top: 20px;
   font-size: 13px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+.footer-widgets .widgets-nav-menu ul li a {
+  transition: .2s ease all;
+}
+.footer-widgets .widgets-nav-menu ul li a:hover {
+  opacity: 0.5;
 }
 .widgets-nav-menu .menu-list {
   opacity: 1;
